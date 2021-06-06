@@ -15,6 +15,8 @@ import com.java.model.LeaveModel;
 
 public interface Service {
 	
+	
+	
 	//login validation hr
 	@Select("SELECT email,password FROM hr WHERE email = #{email} AND password = #{password}")
 	 public HrModel findByEmail(String email,String password);

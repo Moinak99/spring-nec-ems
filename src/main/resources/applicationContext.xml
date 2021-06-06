@@ -6,9 +6,9 @@
  <bean id="dataSource"
   class="org.springframework.jdbc.datasource.DriverManagerDataSource">
   <property name="driverClassName" value="org.postgresql.Driver" />
-       <property name="url" value="jdbc:postgresql://localhost:5432/moidb" />
-       <property name="username" value="postgres" />
-       <property name="password" value="1234" /> </bean>
+       <property name="url" value="jdbc:postgresql://ec2-54-90-211-192.compute-1.amazonaws.com:5432/d4hacs4nb9nivk" />
+       <property name="username" value="qatfopypirdczx" />
+       <property name="password" value="f4df63752e11013e6d6d461e1d0b5b9c16777a4713f9855cff787cc0373f8c1a" /> </bean>
 <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
     <property name="dataSource" ref="dataSource" />
 </bean>
